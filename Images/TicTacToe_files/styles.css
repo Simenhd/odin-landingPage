@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+}
+
+header {
+    height: 72px;
+}
+
+.main_container {
+    display: flex;
+    flex: 1;
+    padding: 15% 15%;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    border:  1px solid;
+    border-color: gainsboro;
+
+    fill:aqua;
+}
+
+footer {
+    height: 72px;
+}

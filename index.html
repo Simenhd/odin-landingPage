@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Odin-landing-page</title>
+</head>
+<body>
+    <header class="header">
+        <div class="subheader-top">
+            <nav>
+                <div class="header-logo"> <img class="header-logo" src="./Images/The _odin_project.svg" alt=""></div>
+                <ul class="navlinks">
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="subheader-bottom">
+            <div class="vertical-container">
+                <!-- Changed div.title to a heading element for accessibility -->
+                <h1 class="title">Odin-project portfolio</h1>
+                <!-- Changed text block to a paragraph for semantic accuracy -->
+                <p class="sub-text">
+                    This website will act as a portfolio for my projects built 
+                </p>
+                <button class="submit">Go to full portfolio</button>
+            </div>
+            <div class="image">
+                <!-- Updated alt text to be more descriptive -->
+                <img src="./Images/The-odin_project_icon.png" alt="Odin Project logo">
+            </div>
+        </div>
+    </header>
+
+    <!-- Wrapped main content inside a semantic main element -->
+    <main>
+        <!-- Projects Section -->
+        <section class="main-content" id="projects">
+            <!-- Changed header-2 div to a heading element -->
+            <h2 class="header-2">Projects</h2>
+            <div class="project-container">
+                <!-- Modified project list to use li as containers -->
+                <ul class="projects">
+                    <li class="project">
+                        <div class="project_img"></div>
+                        <span>Project 1</span>
+                    </li>
+                    <li class="project">
+                        <div class="project_img"></div>
+                        <span>Project 2</span>
+                    </li>
+                    <li class="project">
+                        <div class="project_img"></div>
+                        <span>Project 3</span>
+                    </li>
+                    <li class="project">
+                        <div class="project_img"></div>
+                        <span>Project 4</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Quote Section -->
+        <section class="main-content" id="quote">
+            <blockquote>
+                The path of knowledge is built one project at a time; every line of code is a step closer to mastery.
+            </blockquote>
+        </section>
+        
+        <!-- Additional Content Section -->
+        <section class="main-content" id="3">
+            <p>Bottom</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- Footer content can go here -->
+    </footer>
+</body>
+</html>
